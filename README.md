@@ -1,5 +1,6 @@
-## aimTrainer
-
+# aimTrainer
+## TRAIN YOUR AIM
+This is a simplistic reflex and hand-eye coordination test tool.
 ### Instructions
 - Try to click as many targets (circles) within the time limit.
 - To start playing, click on the play button.
