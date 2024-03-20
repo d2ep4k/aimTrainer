@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AimTrainer</title>
+    <style>
+        span{
+            color: white;
+            font-size:20px;
+        }
+    </style>    
+</head>
+<body style = "background-color: black; text-align:  center; font-family : DejaVu Sans Mono, monospace;">
+    <div id="mainDiv">
+        <div id="content">
+            <div style = "margin:30px;">
+                <span style="font-size:45px;font-family:DejaVu Sans Mono, monospace;">TRAIN YOUR AIM</span>
+            </div>
+            <div style = "margin:80px;">
+                <div>
+                    <span>Try to click as many targets (circles) within the time limit.</span>
+                </div>
+                <div>
+                    <span>
+                        To start playing, click on the play button.
+                    </span>
+                </div>
+                <div>
+                    <span>Use the esc key to end a game.</span>
+                </div>
+                <div style = "margin-top:40px;">
+                    <span>
+                        Every target will be active for two seconds.
+                    </span>
+                </div>
+                <div>
+                    <span>Based on how quickly you react, a score will be produced</span>
+                </div>
+                <div style="margin-top:50px">
+                    <span>Your best score : <span id="bestScore"> NA</span></span>
+                </div>
+                <div  style="margin-top:30px">
+                    <span>Target size : </span> <span id = "targetSize"> <span id="small">small</span> <span id = "medium">medium</span> <span id="large">large</span> </span>
+                </div>
+                <div style="margin-top:20px">
+                    <span>Window period : </span> <span  id = "windowPeriod"> <span id="10">10sec</span> <span id = "30">30sec</span> <span id="60">60sec</span> </span>
+                </div>
+                <div style="margin-top:60px;" >
+                    <span id = "playBtn" style = "background-color: black;padding : 10px; color:white; border: 3px solid white; ">PLAY</span>
+                </div>
+                <div style="margin-top: 60px">
+                    <span id = "result">There will be a 50 point deduction for each missed click.</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<script src="index.js"> 
+
+</script>
